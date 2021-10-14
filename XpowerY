@@ -1,0 +1,15 @@
+// Write a C++ program to calculate x power y, where values of x and y are given by user.
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int num, pwr;
+    cout << "Enter number: ";
+    cin >> num;
+    cout << "Enter power: ";
+    cin >> pwr;
+    cout << pow(num, pwr);
+
+    return 0;
+}
